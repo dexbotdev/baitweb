@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import foot from "../Images/bait.png";

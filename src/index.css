@@ -57,7 +57,7 @@ body {
   border: unset !important;
   position: fixed;
   z-index: 9999;
-  right: 3.9%;
+  right: 50%;
   top: 80%;
 }
 .headlogo {

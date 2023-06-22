@@ -3,6 +3,7 @@ import music from "../Images/music.mp3";
 import play from "../Images/play.svg";
 import pause from "../Images/pause.svg";
 import ReactPlayer from "react-player";
+import { NavLink } from "react-bootstrap";
 
 const Hero = () => {
   const [playing, setPlaying] = useState(false);
@@ -33,7 +34,12 @@ const Hero = () => {
         <p className="heroP pt-5">THE BAIT</p>
         <h1 className="heroh1">
         This is the only CHANCE you have to get $BAIT Whitelist 
-        </h1> 
+        </h1>
+        <div className="heroh1">
+        <NavLink  className="linkButton" href="https://master--baitwhitelist.netlify.app/">
+            <button className="btn btn-success">Get Whitelisted</button>
+        </NavLink>
+          </div> 
       </div>
     </>
   );

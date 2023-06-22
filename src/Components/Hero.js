@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="mt-5 marginAdjust pb-5" data-aos="fade-down">
         <p className="heroP pt-5">THE BAIT</p>
         <h1 className="heroh1">
-          Exploring endless possibilities on Ordinals & BRC-20
+        This is the only CHANCE you have to get $BAIT Whitelist 
         </h1>
         <button ref={ref} className="btnone" onClick={playMusic}>
           <img src={playing ? pause : play} alt="Toggle Playback" />

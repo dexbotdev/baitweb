@@ -19,9 +19,7 @@ const Mission = () => {
                 About <span style={{ color: "#00BF63" }}>Us </span>
               </h2>
               <p className="missionP">
-                Miniatures is a community-driven ecosystem of collectors,
-                innovators, and explorers who are constantly pushing the
-                boundaries of what's possible on Ordinals and BRC-20.
+              Bait this is bait is a memecoin created from the inspiration of famous 4chan meme of the same name.This is bait refers to a popular online slang expression, used in reference to provocative content or messages, that have been deliberately created to incite arguments.
               </p>
               <Nav className="navicon p-0 m-0">
                 <Nav.Link href="#deets" className="p-0 pl-1  ">
@@ -56,14 +54,11 @@ const Mission = () => {
             <div className="marginAdjustm">
               <img src={Blocktop} className="blockktop mb-3 mobcenter" />{" "}
               <h2 className="missionh2">
-                <span style={{ color: "#00BF63" }}>The </span>
-                Paradox
+                <span style={{ color: "#00BF63" }}>$BAIT  </span>
+                MISSION
               </h2>
               <p className="missionP">
-                Fabricating the past, present and future. Miniatures universe
-                will be one of the first pixel art to be inscribed on historic
-                Block 78. Block 78 is the first to be mined by a known
-                individual other than Satoshi
+              The project seeks to away the crypto world industry using memetic magic. All of the degens on ERC20 have been baited here to become rich and prosperous
               </p>
             </div>
           </Col>

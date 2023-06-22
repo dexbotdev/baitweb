@@ -21,20 +21,20 @@ const Roadmap = () => {
                       <div id="content" className="roadmar">
                         <ul className="timeline-1 text-black">
                           <li className="event" data-date="2023">
-                            <p className="timeP">Launch of alpha males</p>
+                            <p className="timeP">Website launch and pinksale hosting</p>
                           </li>
                           <li className="event" data-date="2023">
                             <p className="timeP">
-                              Snapshot & BRC-20 holders claim.
+                            Pinksale presale marketing on twitter.
                             </p>
                           </li>
                           <li className="event" data-date="2023">
                             <p className="timeP">
-                              Passive rewards distribution.
+                            Kols group marketing and contests.
                             </p>
                           </li>
                           <li className="event" data-date="2023">
-                            <p className="timeP">Token burn event.</p>
+                            <p className="timeP">Uniswap launch.</p>
                           </li>
                         </ul>
                       </div>
@@ -57,19 +57,19 @@ const Roadmap = () => {
                     <div className="col-md-12">
                       <div id="content" className="roadmar">
                         <ul className="timeline-1 text-black">
-                          <li className="event" data-date="2024">
-                            <p className="timeP">Launch of alpha females. </p>
+                          <li className="event" data-date="2023">
+                            <p className="timeP">Coingecko/coinmarketcapp listings. </p>
                           </li>
-                          <li className="event" data-date="2024">
+                          <li className="event" data-date="2023">
                             <p className="timeP">
-                              Passive rewards distribution.
+                            DEXT tools and AVE trending.
                             </p>
                           </li>
-                          <li className="event" data-date="2024">
-                            <p className="timeP">Token burn event.</p>
+                          <li className="event" data-date="2023">
+                            <p className="timeP">Partnerships and CEX listings.</p>
                           </li>
-                          <li className="event" data-date="2024">
-                            <p className="timeP">Mutant babies launch.</p>
+                          <li className="event" data-date="2023">
+                            <p className="timeP">1000 holders goal.</p>
                           </li>
                         </ul>
                       </div>

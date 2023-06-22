@@ -60,12 +60,9 @@ const Utility = () => {
               <div className="marginAdjustm mt-5">
                 {" "}
                 <img src={Blocktop} className="blockktop mb-3 mobcenter mt-5" />
-                <h2 className="missionh2">Artwork</h2>
+                <h2 className="missionh2">BAITONOMICS</h2>
                 <p className="missionP">
-                  Hand-drawn pixel miniatures that you'll love to collect and
-                  trade with over 100+ traits and 30+ 1/1s. From dope apparel to
-                  gold accessories, guns, and nostalgic characters, there's
-                  something for everyone.
+                100% of BAITONOMICS is locked for more than 1 year with 0% of team token..
                 </p>
               </div>
             </Col>

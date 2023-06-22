@@ -5,31 +5,31 @@ function Accord() {
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0" className="faq">
         <Accordion.Header className="accordH">
-          What will be the first mint ?
+        How can i buy $BAIT ?
         </Accordion.Header>
         <Accordion.Body className="accordP">
-          Alpha males with 650 supply will be the first mint from The Miniature
-          universe
+        The best price for $BAIT that you can get is by participating in pinksale presale.
+If missed you can buy at launch on uniswap.
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1" className="faq">
         <Accordion.Header className="accordH">
-          What is the mint date ?
+         When does $BAIT launches?
         </Accordion.Header>
-        <Accordion.Body>July 2023</Accordion.Body>
+        <Accordion.Body>$BAIT launches 24 after filling the presale on uniswap.The exact time and date will be announced in our TG group and twitter.</Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2" className="faq">
         <Accordion.Header className="accordH">
-          What is the mint price ?
+        Does $bait have any secuirty measures?
         </Accordion.Header>
-        <Accordion.Body>Between 0.01-0.02 BTC</Accordion.Body>
+        <Accordion.Body>$BAIT has done its audit by the elite pinksale auditors. You can check the audit anytime by visiting on the audit badge in presale page.</Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3" className="faq">
         <Accordion.Header className="accordH">
-          Where can i contact the team?
+        Does team have any experiences?
         </Accordion.Header>
         <Accordion.Body>
-          You can messaged on twitter or open a ticket in discord
+        Team has onboarded marketers that have done projects that went multiple Xs on launch after pinksale presale.
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>

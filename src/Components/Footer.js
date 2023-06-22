@@ -6,7 +6,7 @@ import foot from "../Images/bait.png";
 import logo from "../Images/logo_6.png";
 
 // import tele from "../Images/footertele.svg";
-import discord from "../Images/discord.svg";
+import discord from "../Images/Telegram_logo.svg";
 import twitter from "../Images/twitter.svg";
 const Footer = () => {
   return (
@@ -36,12 +36,12 @@ const Footer = () => {
             </p>
             <Nav className="navicon mb-3">
               <Nav.Link href="#deets" className="md-p-0">
-                <a href="https://twitter.com/MiniaturesBTC" target="_blank">
-                  <img src={twitter} className="icon" />
+                <a href="https://twitter.com/baitthisisbait" target="_blank">
+                  <img src={twitter} style={{ width: "40px" }} />
                 </a>
               </Nav.Link>
-              <Nav.Link href="#deets" className="md-p-0">
-                <img src={discord} className="icon" />
+              <Nav.Link href="https://t.me/baitthisisbait"  className="md-p-0">
+                <img src={discord} style={{ width: "40px" }} />
               </Nav.Link>
             </Nav>
           </div>

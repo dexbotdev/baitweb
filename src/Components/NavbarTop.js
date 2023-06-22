@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../Images/logo_6.png";
-import discord from "../Images/discord.svg";
+import discord from "../Images/Telegram_logo.svg";
 import twitter from "../Images/twitter.svg";
 function NavbarTop() {
   return (
@@ -31,11 +31,11 @@ function NavbarTop() {
           </Nav>
           <Nav className="navicon">
             <Nav.Link href="#deets">
-              <a href="https://twitter.com/MiniaturesBTC" target="_blank">
+              <a href="https://twitter.com/baitthisisbait" target="_blank">
                 <img className="" src={twitter} style={{ width: "40px" }} />
               </a>
             </Nav.Link>
-            <Nav.Link href="#deets">
+            <Nav.Link href="https://t.me/baitthisisbait">
               <img className="" src={discord} style={{ width: "40px" }} />
             </Nav.Link>
           </Nav>

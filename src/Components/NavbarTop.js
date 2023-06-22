@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../Images/bait.png";
+import logo from "../Images/logo_6.png";
 import discord from "../Images/discord.svg";
 import twitter from "../Images/twitter.svg";
 function NavbarTop() {

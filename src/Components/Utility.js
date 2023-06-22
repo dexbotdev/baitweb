@@ -14,23 +14,23 @@ const Utility = () => {
       <div className="py-5 my-5">
         <Container data-aos="fade-down">
           {" "}
-          <h2 className="echoH2 utilityH2">Utility</h2>
+          <h2 className="echoH2 utilityH2">Markting Plans</h2>
           <div className="mobileAdjust gap-4 mt-5">
             <div className="SimBox cls">
               <img src={img1} className="iconU" />
               <p className="simP mt-3">
-                Access to future Miniature ecosystem ordinal drops
+              Pre-Launch marketing
               </p>
             </div>{" "}
             <div className="SimBox cls margintopA">
               <img src={img2} className="iconU" />
 
-              <p className="simP mt-3">Brc-20 holders claim</p>
+              <p className="simP mt-3">Japanese Marketing</p>
             </div>
             <div className="SimBox cls margintopA">
               <img src={img3} className="iconU" />
 
-              <p className="simP mt-3">Passive income</p>
+              <p className="simP mt-3">Chinese Marketing</p>
             </div>
           </div>
           <div
@@ -41,14 +41,14 @@ const Utility = () => {
               <img src={img4} className="iconU" />
 
               <p className="simP mt-3">
-                Access to elite ordinal alpha & giveaways
+              Giveaways and Eth Trendings
               </p>
             </div>
             <div className="SimBox cls margintopA">
               <img src={img5} className="iconU" />
 
               <p className="simP mt-3">
-                Partnership with upcoming tools on Ordinals & Brc-20
+              Projects Patnerships
               </p>
             </div>
           </div>

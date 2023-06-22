@@ -3,6 +3,8 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import foot from "../Images/bait.png";
+import logo from "../Images/logo_6.png";
+
 // import tele from "../Images/footertele.svg";
 import discord from "../Images/discord.svg";
 import twitter from "../Images/twitter.svg";
@@ -12,7 +14,7 @@ const Footer = () => {
       <Container>
         <a href="https://forms.gle/4ujuyKBGxEydPwKh6" target="_blank">
           {" "}
-          <img src={foot} className="groupimg2 mb-3" />
+          <img src={logo} className="groupimg2 mb-3" />
         </a>
         <Row>
           <Nav className="footAdjust">
@@ -20,7 +22,7 @@ const Footer = () => {
             <Nav.Link href="#AboutUs">About Us</Nav.Link>
             <Nav.Link href="#Universe">Universe</Nav.Link>
             <Nav.Link href="#Utility">Utility</Nav.Link>
-            <Nav.Link href="#Art">Art</Nav.Link>
+            <Nav.Link href="https://bait-whitelist.netlify.app">WhiteList</Nav.Link>
             <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
             <Nav.Link href="#Team">Team</Nav.Link>
           </Nav>

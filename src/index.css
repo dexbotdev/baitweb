@@ -1,13 +1,1125 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Minecraft !important;
+  background-color: black !important;
+}
+@font-face {
+  font-family: Minecraft;
+  src: url("1_Minecraft-Regular.otf");
+}
+@font-face {
+  font-family: Tw Cen MT;
+  src: url("Tw Cen MT Regular.ttf");
+}
+.navbar-nav .nav-link.active {
+  font-family: Minecraft;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* .bghero {
+  background-size: 100% 100%;
+  height: 38rem;
+} */
+/* .bghero {
+  background-image: url("./Images/gif.gif");
+  background-size: 100% 100%;
+  height: 38rem;
+} */
+.bghero {
+  position: relative;
+  overflow: hidden;
+  height: 38rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heroh1 {
+  position: relative;
+
+  font-family: Minecraft;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.btnone {
+  background-color: unset !important;
+  border: unset !important;
+  position: fixed;
+  z-index: 9999;
+  right: 3.9%;
+  top: 80%;
+}
+.headlogo {
+  width: 124px;
+  height: 124px;
+}
+.heroP {
+  font-family: Minecraft;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+
+  /* Grayscale / 700 */
+
+  color: #00BF63 !important;
+}
+.nav-link {
+  font-family: Minecraft;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* Grayscale / 500 */
+
+  color: white !important;
+}
+.marginAdjust {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.groupAdjust {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 60px 208px;
+  gap: 10px !important;
+  justify-content: space-around;
+  /* Grayscale / 100 */
+
+  background: #f3f3f6;
+}
+
+.groupimg {
+  width: 100%;
+  height: 100%;
+}
+.groupimg1 {
+  width: 100%;
+  height: 80%;
+}
+.groupimg2 {
+  display: flex;
+  margin: auto;
+  width: 173.27px;
+  height: 100px;
+}
+/* Mission */
+.missionh2 {
+  font-family: Minecraft !important;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Impact;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.missionBlue {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  /* or 34px */
+
+  /* Blue / 600 */
+
+  color: #4c7ce5;
+}
+.missionBlue1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  /* or 34px */
+
+  /* Blue / 600 */
+
+  color: #4c7ce5;
+}
+.marketBlue {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* or 34px */
+
+  /* Blue / 600 */
+
+  color: #4c7ce5;
+}
+.marginAdjustm {
+  margin-top: 12%;
+}
+.missionImg {
+  width: 510px;
+  height: 410px;
+}
+.blocktop {
+  /* width: 112.5px;
+  height: 16px; */
+}
+/*Problem */
+.problemP {
+  font-family: Tw Cen MT;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1) !important;
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+.echoH2 {
+  font-family: Minecraft;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.utilityH2 {
+  font-family: Minecraft;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.cardhead {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+
+  color: #181818;
+}
+.boxLandmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 35px;
+  gap: 10px;
+  margin: auto;
+  width: 246px;
+  height: 162px;
+
+  /* Black & White/White */
+
+  background: #ffffff;
+  /* Drop Shadow/High */
+
+  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+  border-radius: 12px;
+}
+.faq {
+  background: rgba(129, 129, 129, 0.25) !important;
+  border: none !important;
+  margin-top: 10px !important;
+  width: 859px;
+  margin: auto;
+}
+.boxP {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.missionH2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  /* or 129% */
+
+  letter-spacing: 0.05em;
+
+  /* s3 */
+
+  color: #181818;
+}
+.missionP {
+  font-family: Tw Cen MT;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+.coinP {
+  font-family: Tw Cen MT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+  text-align: center;
+}
+.accordion-button::after {
+  background-image: url("./Images/arrow-right.svg") !important;
+}
+.marketP {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* Grayscale / 700 */
+
+  color: #383751;
+}
+.marketP1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* Grayscale / 700 */
+  color: #6c6b80 !important;
+}
+.marketboxH {
+  font-family: Minecraft;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.echocard {
+  width: 417px !important;
+  border-radius: 12px !important;
+  background: rgba(129, 129, 129, 0.25) !important;
+  padding: 24px 0px !important;
+}
+.marketBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px;
+  gap: 10px;
+
+  width: max-content;
+  /* height: max-content; */
+  /* Grayscale / 50 */
+
+  background: #f9f9fb;
+  /* Grayscale / 200 */
+
+  border: 1px solid #e5e5eb;
+  border-radius: 8px;
+}
+.ul {
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #00BF63;
+}
+.ulitem {
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.ulbelow {
+  font-family: Minecraft;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #00BF63;
+}
+.echo2bullet {
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #ffffff;
+
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+.echobutton {
+  height: 82px;
+  width: 100%;
+  border-radius: 12px;
+  background: rgba(129, 129, 129, 0.25);
+  backdrop-filter: blur(4.5px);
+  font-family: Tw Cen MT;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.crouselBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+  max-width: 302px;
+  max-height: 277px;
+  /* width: 277px; */
+  height: 277px;
+  background: none !important;
+  /* Grayscale / 50 */
+
+  /* Grayscale / 200 */
+
+  border: unset;
+  border-radius: 12px;
+}
+.crimg {
+  width: 200px !important;
+  height: 200px !important;
+
+  border-radius: 12px;
+}
+.react-multi-carousel-item {
+  width: 220px !important;
+}
+.crouselP {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #6c6b80;
+}
+.investH1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 83px;
+  text-align: center;
+  color: white;
+  padding-top: 7%;
+}
+.bginvest {
+  /* background-image: url("./Images/Invest.png"); */
+  background-position: 100% 100%;
+  height: 30rem;
+  background-size: cover;
+}
+.accordion-button .accordion-button:not(.collapsed) {
+  font-family: Tw Cen MT !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  letter-spacing: -0.022em;
+  text-align: left;
+  letter-spacing: -0.022em;
+
+  color: rgba(255, 255, 255, 0.48) !important;
+}
+.investbtn {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.05em !important;
+  padding: 15px 36px !important;
+  /* gap: 10px; */
+  font-family: Acronym;
+  /* s1 */
+
+  background: #ffffff;
+  border-radius: 8px;
+  /* s3 */
+
+  color: #181818 !important;
+}
+.teamcard {
+  display: flex !important;
+  align-items: flex-start !important;
+  padding: 10px !important;
+  gap: 10px !important;
+  max-height: max-content !important;
+  height: 570px !important;
+  background: rgba(129, 129, 129, 0.25) !important;
+  /* White Opacity / 20% */
+
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  /* backdrop-filter: blur(12.5px) !important; */
+}
+.teamcard:hover {
+  border: 1px solid #00BF63 !important;
+}
+.cls:hover {
+  border: 1px solid #00BF63 !important;
+}
+.teamP {
+  font-family: Minecraft !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+.teamp2 {
+  font-family: Tw Cen MT !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+.border-none {
+  border: none !important;
+  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+  border-radius: 12px;
+}
+.accordH .accordion-button {
+  color: rgba(255, 255, 255, 0.48) !important;
+  background: rgba(129, 129, 129, 0.25) !important;
+
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.022em;
+  text-align: left;
+}
+.footAdjust {
+  display: flex;
+  justify-content: center;
+}
+.footericonadjust {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  text-align: center;
+  align-items: center;
+}
+.Roadmapphase2 {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.phase2img {
+  width: 236px !important;
+  /* height: 320px; */
+  border-radius: unset !important;
+}
+.card-img-top {
+  border-radius: unset !important;
+}
+.PSli {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 240%;
+}
+.mobileAdjust {
+  display: flex;
+}
+.heightAd {
+  height: 76px;
+}
+.Roadblock1 {
+  width: 95%;
+  float: right;
+}
+.Roadblock0 {
+  width: 95%;
+  float: left;
+}
+.blueSim {
+  font-family: Acronym;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(76, 124, 229, 1);
+}
+.simH {
+  font-family: Acronym;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.simP {
+  font-family: Minecraft;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+.SimBox {
+  padding: 28px 2px 2px 35px;
+
+  height: 194px;
+  width: 417px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 20px 0px rgba(18, 17, 39, 0.25);
+  border: 2px solid rgba(129, 129, 129, 0.25);
+}
+.SimB {
+  height: 44px;
+  width: 152px;
+  border-radius: 214px;
+  padding: 10px 32px 10px 32px;
+  background: rgba(76, 124, 229, 1);
+  font-family: Acronym;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  margin: auto;
+  display: flex;
+}
+.copy {
+  font-family: Tw Cen MT;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*RoadMAp*/
+
+.timeline {
+  border-left: 7px solid rgba(255, 255, 255, 0.06);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  width: 22px;
+  height: 22px;
+  background-color: #00BF63;
+  left: -46px;
+  border-radius: 50%;
+  content: "";
+}
+
+.timeline-1 {
+  border-left: 7px solid rgba(255, 255, 255, 0.06);
+
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  /* max-width: 40%; */
+}
+.timeP {
+  color: rgba(255, 255, 255, 1);
+  font-family: Tw Cen MT;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  opacity: 0.7;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+@media (max-width: 767px) {
+  .timeline-1 {
+    max-width: 98%;
+    padding: 25px;
+  }
+}
+
+.timeline-1 .event {
+  border-bottom: 1px dashed #000;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+.navmx {
+  padding: 20px !important;
+}
+.gapnav {
+  gap: 40px;
+}
+@media (max-width: 767px) {
+  .gapnav {
+    gap: 20px;
+  }
+  .navmx {
+    padding: 0px !important;
+  }
+  .timeline-1 .event {
+    padding-top: 30px;
+  }
+  .teamcard {
+    max-height: unset !important;
+  }
+  .headlogo {
+    width: 83.08px;
+    height: 48px;
+  }
+}
+
+.timeline-1 .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline-1 .event:before,
+.timeline-1 .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-1 .event:before {
+  left: -207px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+  font-family: Minecraft;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: right;
+  color: #00BF63;
+}
+.navbar-toggler-icon {
+  text-align: right;
+}
+.roadmar {
+  margin-left: 100px;
+}
+@media (max-width: 767px) {
+  .timeline-1 .event:before {
+    left: 0px;
+    text-align: left;
+  }
+  .roadmar {
+    margin-left: unset;
+  }
+}
+
+.timeline-1 .event:after {
+  width: 22px;
+  height: 22px;
+  background-color: #00BF63;
+  left: -64px;
+  border-radius: 50%;
+
+  content: "";
+  top: 5px;
+}
+/* .roadImg {
+  mix-blend-mode: luminosity !important;
+  transform: matrix(1, 0, 0, -1, 0, 0) !important;
+} */
+@media (max-width: 767px) {
+  .timeline-1 .event:after {
+    left: -38.8px;
+  }
+  .hiddenmobile {
+    display: none !important;
+  }
+  .mobile-dir {
+    flex-direction: column-reverse !important;
+  }
+  .mobcenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .maxset {
+    max-width: 1500px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .groupimg {
+    height: 100% !important;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .mapmob {
+    position: absolute !important;
+    padding-top: 25px;
+    top: 60px !important;
+    width: 100% !important;
+    background-color: black !important;
+  }
+  .uns {
+    height: unset !important;
+    width: unset !important;
+  }
+  .roadImg {
+    width: 100%;
+  }
+  .missionImg {
+    width: 100%;
+    height: unset;
+  }
+  .echocard {
+    width: 100% !important;
+  }
+  .SimBox {
+    width: 100%;
+  }
+  .faq {
+    width: unset !important;
+  }
+  .d-none-mob {
+    display: none;
+  }
+  .Roadblock1 {
+    width: unset;
+    float: unset;
+  }
+  .Roadblock0 {
+    width: unset;
+    float: unset;
+  }
+  .boxLandmark {
+    width: unset;
+  }
+  .crouselBox {
+    max-width: unset;
+  }
+  .heightAd {
+    height: unset !important;
+  }
+  .marketBlue {
+    font-size: 12px;
+    text-align: center;
+  }
+  .groupAdjust {
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px !important;
+  }
+  .bghero {
+    background-size: cover;
+    height: 38rem;
+    background-position: center;
+  }
+  .bginvest {
+    background-size: cover;
+    /* height: 38rem; */
+    background-position: center;
+  }
+  .mobileAdjust {
+    display: block;
+    padding: 0 20px;
+  }
+  .echo2bullet {
+    font-size: 16px;
+  }
+  .echobutton img {
+    width: 24px;
+    height: 24px;
+  }
+  .echobutton {
+    font-size: 16px;
+  }
+  .ul {
+    font-size: 16px;
+  }
+  .ulitem {
+    font-size: 16px;
+  }
+  .marginAdjust {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .heroh1 {
+    font-family: Minecraft;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 42px;
+    text-align: center;
+  }
+  .heroP {
+    font-family: Minecraft;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .missionBlue {
+    font-size: 16px;
+  }
+  .missionBlue1 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .problemP {
+    font-size: 12px;
+  }
+  .cardhead {
+    font-size: 20px;
+  }
+  .PSli {
+    font-size: 13px;
+  }
+  .missionh2 {
+    font-family: Minecraft;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Impact;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .missionP {
+    font-family: "Tw Cen MT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+  }
+  .echoH2 {
+    font-family: Minecraft;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .Roadmapphase2 {
+    display: block !important;
+  }
+  .marketBox {
+    width: unset;
+    margin-top: 15px;
+  }
+  .investH1 {
+    font-size: 32px;
+    line-height: unset;
+    padding-top: 22%;
+  }
+  .phase2img {
+    width: 100% !important;
+    height: 220px;
+  }
+  .boxLandmark {
+    margin-top: 20px !important;
+  }
+  .marginAdjustm {
+    margin-left: unset !important;
+  }
+  .missionH2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .marketP {
+    font-size: 14px;
+    text-align: center;
+  }
+  .marketboxH {
+    font-size: 26px;
+  }
+  .iconU {
+    width: 40px;
+    height: 40px;
+  }
+  .simP {
+    font-family: Minecraft;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .marketP1 {
+    font-size: 13px;
+  }
+  .coinP {
+    font-size: 14px;
+  }
+  .margintopA {
+    margin-top: 20px !important;
+  }
+  .hid {
+    display: none !important;
+  }
+  .nav-link {
+    font-size: 16px !important;
+    font-family: Minecraft;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 15px !important;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .footericonadjust {
+    flex-direction: column-reverse;
+  }
+  .md-p-0 {
+    padding: 0px !important;
+  }
+  .copy {
+    font-size: 12px;
+  }
+  .navicon {
+    display: flex !important;
+    flex-direction: row !important;
+    /* justify-content: space-between; */
+    margin-top: 35px !important;
+    justify-content: center;
+    margin-bottom: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    gap: 18px;
+  }
+
+  .mobhid {
+    display: block !important;
+  }
+  .mobileDirection {
+    flex-direction: column-reverse;
+  }
+}
+.mobhid {
+  display: none;
+}
+.card {
+  border-radius: 12px !important;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+}
+
+.accordion-button:hover {
+  z-index: 2;
+}
+.accordion-button:not(.collapsed) {
+  background-color: unset !important;
+  box-shadow: unset !important;
+}
+.accordion-body {
+  font-family: Tw Cen MT !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  letter-spacing: -0.022em !important;
+  text-align: left !important;
+
+  /* line-height: 180%; */
+  /* or 29px */
+
+  /* Grayscale / 500 */
+
+  color: rgba(255, 255, 255, 0.48) !important ;
+  text-shadow: 0px 8px 20px rgba(18, 17, 39, 0.25);
+}
+
+@keyframes moveUpAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.moving-div {
+  animation: moveUpAndDown 2s infinite;
+}
+.nav-link:hover {
+  color: #00BF63 !important;
+}
+.icon:hover {
+  width: 45px !important;
+}
+.iconU:hover {
+  width: 68px !important;
+}
+
+.echobutton:hover {
+  background: rgba(101, 101, 101, 0.25);
 }

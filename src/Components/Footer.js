@@ -14,7 +14,7 @@ const Footer = () => {
       <Container>
         <a href="https://forms.gle/4ujuyKBGxEydPwKh6" target="_blank">
           {" "}
-          <img src={logo} className="headlogo" />
+          <img src={logo} className="groupimg2 mb-3" />
         </a>
         <Row>
           <Nav className="footAdjust">

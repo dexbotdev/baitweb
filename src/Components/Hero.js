@@ -37,7 +37,7 @@ const Hero = () => {
         </h1>
         <div className="heroh1">
         <NavLink  className="linkButton" href="https://master--baitwhitelist.netlify.app/">
-            <button className="btn btn-success">Get Whitelisted</button>
+            <button className="btn btn-success">PLAY AND WIN WHITELIST</button>
         </NavLink>
           </div> 
       </div>

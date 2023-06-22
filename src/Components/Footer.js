@@ -22,7 +22,7 @@ const Footer = () => {
             <Nav.Link href="#AboutUs">About Us</Nav.Link>
             <Nav.Link href="#Universe">Universe</Nav.Link>
             <Nav.Link href="#Utility">Utility</Nav.Link>
-            <Nav.Link href="https://bait-whitelist.netlify.app">WhiteList</Nav.Link>
+            <Nav.Link href="https://master--baitwhitelist.netlify.app/">WhiteList</Nav.Link>
             <Nav.Link href="#Roadmap">Roadmap</Nav.Link>
             <Nav.Link href="#Team">Team</Nav.Link>
           </Nav>

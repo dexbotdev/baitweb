@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 import Roadmap from "./Components/Roadmap";
 import Echosystem from "./Components/Echosystem";
 import Utility from "./Components/Utility"; 
-import Mission from "./Components/Mission";
+import Mission from "./Components/Mission"; 
 import vid from "./Images/Hero2.mp4";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Hero />
       </div> 
       <Mission />
-      <Echosystem />
+      <Echosystem /> 
       <Utility /> 
       <Roadmap /> 
       <Faq />

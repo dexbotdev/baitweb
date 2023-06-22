@@ -7,7 +7,7 @@ import Roadmap from "./Components/Roadmap";
 import Echosystem from "./Components/Echosystem";
 import Utility from "./Components/Utility"; 
 import Mission from "./Components/Mission"; 
-import vid from "./Images/Hero2.mp4";
+import vid from "./Images/heromedia.mp4";
 
 function App() {
   return (

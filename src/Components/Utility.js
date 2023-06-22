@@ -39,7 +39,6 @@ const Utility = () => {
           >
             <div className="SimBox cls margintopA">
               <img src={img4} className="iconU" />
-
               <p className="simP mt-3">
               Giveaways and Eth Trendings
               </p>

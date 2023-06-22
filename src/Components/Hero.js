@@ -33,11 +33,7 @@ const Hero = () => {
         <p className="heroP pt-5">THE BAIT</p>
         <h1 className="heroh1">
         This is the only CHANCE you have to get $BAIT Whitelist 
-        </h1>
-        <button ref={ref} className="btnone" onClick={playMusic}>
-          <img src={playing ? pause : play} alt="Toggle Playback" />
-        </button>
-        <ReactPlayer className="uns" url={music} playing={playing} />
+        </h1> 
       </div>
     </>
   );

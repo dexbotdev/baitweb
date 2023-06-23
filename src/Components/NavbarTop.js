@@ -25,7 +25,7 @@ function NavbarTop() {
             <Nav.Link href="#Home">Home</Nav.Link>
             <Nav.Link href="#AboutUs">About Us</Nav.Link>
             <Nav.Link href="#Universe">Universe</Nav.Link>
-            <Nav.Link href="#Utility">Utility</Nav.Link>
+            <Nav.Link href="#Marketing">Marketing</Nav.Link>
             <Nav.Link href="https://master--baitwhitelist.netlify.app/">WhiteList</Nav.Link>
             <Nav.Link href="#Roadmap">Roadmap</Nav.Link> 
           </Nav>

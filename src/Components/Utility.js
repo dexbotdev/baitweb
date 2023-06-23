@@ -9,12 +9,12 @@ import img5 from "../Images/heart.svg";
 import art from "../Images/art.png";
 const Utility = () => {
   return (
-    <div id="Utility" className="my-5">
+    <div id="Marketing" className="my-5">
       {" "}
       <div className="py-5 my-5">
         <Container data-aos="fade-down">
           {" "}
-          <h2 className="echoH2 utilityH2">Markting Plans</h2>
+          <h2 className="echoH2 utilityH2">Marketing Plans</h2>
           <div className="mobileAdjust gap-4 mt-5">
             <div className="SimBox cls">
               <img src={img1} className="iconU" />
@@ -61,7 +61,7 @@ const Utility = () => {
                 <img src={Blocktop} className="blockktop mb-3 mobcenter mt-5" />
                 <h2 className="missionh2">BAITONOMICS</h2>
                 <p className="missionP">
-                100% of BAITONOMICS is locked for more than 1 year with 0% of team token..
+                100% of liquidity will be  locked for more than 1 year with 0% of team token.
                 </p>
               </div>
             </Col>
